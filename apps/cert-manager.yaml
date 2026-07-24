@@ -11,14 +11,14 @@ spec:
   project: default
   sources:
     # Chart source
-    - repoURL: https://github.com/ia-eknorr/lke-sandbox.git
+    - repoURL: https://github.com/etknorr/lke-sandbox.git
       targetRevision: main
       path: charts/cert-manager
       helm:
         valueFiles:
           - $values/values/cert-manager/values.yaml
     # Values source
-    - repoURL: https://github.com/ia-eknorr/lke-sandbox.git
+    - repoURL: https://github.com/etknorr/lke-sandbox.git
       targetRevision: main
       ref: values
   destination:
