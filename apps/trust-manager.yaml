@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ia-eknorr/lke-sandbox.git
+    repoURL: https://github.com/etknorr/lke-sandbox.git
     targetRevision: main
     path: charts/trust-manager
   destination:
